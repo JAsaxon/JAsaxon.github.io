@@ -16,6 +16,7 @@ body::-webkit-scrollbar {
   display: none;
 }
 a {
+  margin:0;
   width: 100vw;
   margin: 0;
 }
@@ -57,7 +58,7 @@ a {
   font-weight: 400;
   background: #252727;
   padding: 0.3rem 1rem;
-  float: right;
+
     width: 100vw;
 }
 a:hover {
