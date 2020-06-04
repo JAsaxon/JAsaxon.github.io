@@ -58,6 +58,7 @@ a {
   background: #252727;
   padding: 0.3rem 1rem;
   float: right;
+    width: 100vw;
 }
 a:hover {
   text-decoration: none;
