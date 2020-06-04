@@ -15,6 +15,10 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
+a {
+  width: 100vw;
+  margin: 0;
+}
 p {
   font-weight: 300;
 }
@@ -42,22 +46,23 @@ h1 {
   text-align: center;
 }
 a {
+  -moz-transition-duration: 500ms;
+  transition-duration: 500ms;
   color: #6c6d6d;
   text-decoration: none;
   text-transform: uppercase;
   display: block;
   letter-spacing: 0.3em;
-  font-size: 0.6em;
+  font-size: 1em;
   font-weight: 400;
   background: #252727;
   padding: 0.3rem 1rem;
-  margin: 1.9rem 0 0 0;
   float: right;
 }
 a:hover {
+  text-decoration: none;
   color: #ffffff;
-  background: #004ffc;
-  border-bottom: 0.35em solid black;
+  background: cadetblue;
 }
 .content {
   padding: 0 18px;
@@ -194,5 +199,18 @@ h1 {
   left: 50%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
+}
+#Backtext {
+  align-self: center;
+  font-size: 1em;
+  color: #cccccc;
+  overflow: visible;
+}
+#Backtext > * {
+}
+#refe {
+  width: min-content;
+  position: relative;
+  left: 45vw;
 }
 /*ANIMATION*/
